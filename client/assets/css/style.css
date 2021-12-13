@@ -52,3 +52,23 @@ section {
     border-radius: 50%;
     opacity: 0.4;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box;
+    height: 50px;
+    background: rgb(241, 239, 239);
+    padding: 10px;
+  }
+
+  #contact {
+      margin-bottom: 60px;
+  }
